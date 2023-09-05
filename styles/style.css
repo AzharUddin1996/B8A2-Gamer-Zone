@@ -10,7 +10,7 @@ header{
     width: 100%;
     background-color: rgb(241, 241, 241);
 }
-.nav{
+.nav,.card-container{
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -57,7 +57,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.banner h1{
+.goat{
     color: #C44FCF;
     font-weight:700;
 }
@@ -83,3 +83,21 @@ header{
 /* ----------banner par end---------- */
 
 /* --------------header end------------- */
+/*----------- online gamer part start-------------- */
+.online-game-section{
+    margin-top: 100px;
+    text-align: center;
+}
+.card{
+    width: 342px;
+    height: 484px;
+}
+.card p{
+    text-align: left;
+    padding-left: 10px;
+}
+.card img{
+    width: 170px;
+}
+
+/*----------- online gamer part end-------------- */
