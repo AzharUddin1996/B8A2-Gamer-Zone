@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* --------------header start------------- */
+/* --------------navbar start------------- */
+header{
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+.nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    /* justify-content: center; */
+    align-items: center;
+}   
+.nav ul{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+.logo-container{
+    font-weight: 700;
+}
+.logo-container img{
+    width: 30px;
+}
+.g-style{
+    color: #FF42A5;
+}
+.youtube-icon{
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    gap: 5px;
+}
+/* --------------navbar end------------- */
+
+/* ----------banner par start---------- */
+.banner{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h1{
+    color: #C44FCF;
+    font-weight:700;
+}
+.banner P{
+    font-size: 12px;
+    padding: 4px
+}
+.p{
+    margin-bottom: 10px;
+}
+.banner-pic img{
+    width: 300px;
+}
+.btn-primary,.btn-secondary{
+    border: none;
+    border-radius: 20px;
+    padding: 3px 10px;
+    background-color: #FF42A5;
+}
+.btn-secondary{
+    background-color: #4EC5F7;
+}
+/* ----------banner par end---------- */
+
+/* --------------header end------------- */
