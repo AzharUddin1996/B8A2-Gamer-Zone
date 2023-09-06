@@ -148,9 +148,7 @@ h2{
     right: 0;
 }
 /* user section */
-.user-container{
-    margin-bottom: 200px;
-}
+
 .user-container ul li{
   list-style: none;
 }
@@ -171,5 +169,41 @@ padding: 0 10px;
     border: 1px solid#FF42A5;
     color: #FF42A5;
 }
+/* footer */
+footer{
+    margin: 200px 0;
+    padding-top: 20px;
+    height: 500px;
+    background-color: #0B0223;
+    color: white;
+    width: 100%;
+}
+footer>h2{
+width: 70%;
+margin: 0 auto;
+text-align: center;
+}
+.footer-container>ul{
+    text-align: center;
+    width: 40%;
+}
+footer li{
+list-style: none;
 
-
+}
+.social{
+    padding: 50px 0px;
+    width: 400px;
+}
+.fa-brands{
+    color: white;
+    font-size: 30px;
+}
+.social1{
+    width: 600px;
+}
+.lastone{
+    padding-top: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
