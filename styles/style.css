@@ -16,11 +16,10 @@ header{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    /* justify-content: center; */
     align-items: center;
 }   
 .nav ul{
-    width: 300px;
+    width: 550px;
     display: flex;
     justify-content: space-around;
 }
@@ -34,17 +33,24 @@ header{
     font-weight: 700;
 }
 .logo-container img{
-    width: 30px;
+    width: 88px;
+    height: 40px;
 }
 .g-style{
     color: #FF42A5;
 }
 .youtube-icon{
+    width: 260px;
     border: none;
-    padding: 4px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
     border-radius: 4px;
     display: flex;
-    gap: 5px;
+    gap: 50px;
+}
+.youtube-icon a{
+    font-size: 1rem;
 }
 /* --------------navbar end------------- */
 
@@ -87,17 +93,55 @@ header{
 .online-game-section{
     margin-top: 100px;
     text-align: center;
+    border: 1px solid black;
+}
+h2{
+    font-size: 3rem;
+}
+.card-container{
+    gap: 20px;
 }
 .card{
     width: 342px;
     height: 484px;
+    border: 1px solid red;
+   
 }
 .card p{
+    width: 100%;
     text-align: left;
-    padding-left: 10px;
+    padding-top: 50px;
 }
 .card img{
-    width: 170px;
+    width: 100%;
 }
 
 /*----------- online gamer part end-------------- */
+/* play instantly start */
+.play-instantly-section{
+    align-items: center;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.play1,.play2{
+    height: 300px;
+    position: relative;
+ 
+}
+.second-img{
+    width: 250px;
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.play2 .first-img{
+    position: absolute;
+    right: 180px;
+    bottom: 0;
+    width: 100px;
+    z-index: 2;
+
+}
+
