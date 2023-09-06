@@ -147,4 +147,29 @@ h2{
     height: 100%;
     right: 0;
 }
+/* user section */
+.user-container{
+    margin-bottom: 200px;
+}
+.user-container ul li{
+  list-style: none;
+}
+.user2{
+    width: 56%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.user-container ul li {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(249, 249, 245);
+border-radius: 30px;
+padding: 0 10px;
+}
+.user-container ul li:hover{
+    border: 1px solid#FF42A5;
+    color: #FF42A5;
+}
+
 
