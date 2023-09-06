@@ -19,8 +19,10 @@ header{
     align-items: center;
 }   
 .nav ul{
-    width: 550px;
+    width:700px;
+    padding: 10px 0px;
     display: flex;
+    font-size: 1.5rem;
     justify-content: space-around;
 }
 .nav ul li{
@@ -28,6 +30,7 @@ header{
 }
 .nav ul li a{
     text-decoration: none;
+    font-size: 1.5rem;
 }
 .logo-container{
     font-weight: 700;
@@ -40,14 +43,13 @@ header{
     color: #FF42A5;
 }
 .youtube-icon{
-    width: 260px;
+    width: 300px;
     border: none;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
-    border-radius: 4px;
+    border-radius: 7px;
+    padding: 5px 0px;
     display: flex;
-    gap: 50px;
 }
 .youtube-icon a{
     font-size: 1rem;
@@ -67,20 +69,22 @@ header{
     color: #C44FCF;
     font-weight:700;
 }
-.banner P{
-    font-size: 12px;
-    padding: 4px
+.banner-info>div{
+    margin-bottom: 100px;
 }
-.p{
-    margin-bottom: 10px;
+.banner P{
+    font-size: 1rem;
+    padding: .5rem;
 }
 .banner-pic img{
-    width: 300px;
+    width: 100%;
 }
 .btn-primary,.btn-secondary{
     border: none;
     border-radius: 20px;
-    padding: 3px 10px;
+    padding: 15px 50px;
+    font-size: 2rem;
+    color: white;
     background-color: #FF42A5;
 }
 .btn-secondary{
@@ -93,7 +97,6 @@ header{
 .online-game-section{
     margin-top: 100px;
     text-align: center;
-    border: 1px solid black;
 }
 h2{
     font-size: 3rem;
@@ -104,7 +107,6 @@ h2{
 .card{
     width: 342px;
     height: 484px;
-    border: 1px solid red;
    
 }
 .card p{
